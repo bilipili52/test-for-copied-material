@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bellavista - Наши номера</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; }
+        header { padding: 20px; text-align: center; background: #f8f8f8; }
+        .container { max-width: 1200px; margin: auto; padding: 20px; }
+        .hero { text-align: center; padding: 50px 0; }
+        .room-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .room-card { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+        .room-card img { width: 100%; height: auto; display: block; }
+        .room-info { padding: 20px; }
+        .price { font-weight: bold; color: #b38e5d; }
+        .faq { margin-top: 50px; background: #fafafa; padding: 40px 20px; }
+        footer { background: #222; color: #fff; padding: 40px 20px; text-align: center; }
+        .btn { display: inline-block; padding: 10px 20px; background: #333; color: #fff; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <strong>BELLAVISTA</strong> | <a href="#">Главная</a> | <a href="#">О нас</a> | <a href="#">Номера</a> | <a href="#">Контакты</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section class="hero">
+        <h1>Найдите свой идеальный номер</h1>
+        <p>Продуманные пространства для вашего отдыха</p>
+    </section>
+
+    <div class="room-grid">
+        <article class="room-card">
+            <img src="https://framerusercontent.com/images/5baqDWM1vBNHKw7HCNQPGO3PFTw.jpg" alt="Bellavista Premier">
+            <div class="room-info">
+                <h3>BELLAVISTA PREMIER</h3>
+                <p>Лучший способ остановиться у нас.</p>
+                <p class="price">$899 / за неделю</p>
+                <a href="#" class="btn">Забронировать</a>
+            </div>
+        </article>
+
+        <article class="room-card">
+            <img src="https://framerusercontent.com/images/y2z8SWTM9KYApISpwHugI0C9TU.jpg" alt="Bellavista Signature">
+            <div class="room-info">
+                <h3>BELLAVISTA SIGNATURE</h3>
+                <p>Где комфорт встречается с характером.</p>
+                <p class="price">$799 / за неделю</p>
+                <a href="#" class="btn">Забронировать</a>
+            </div>
+        </article>
+
+        <article class="room-card">
+            <img src="https://framerusercontent.com/images/irpzvput8T6wavQdmcsbXA48hjw.jpg" alt="Bellavista Essential">
+            <div class="room-info">
+                <h3>BELLAVISTA ESSENTIAL</h3>
+                <p>Все, что вам нужно. Ничего лишнего.</p>
+                <p class="price">$599 / за неделю</p>
+                <a href="#" class="btn">Забронировать</a>
+            </div>
+        </article>
+    </div>
+
+    <section class="faq">
+        <h2>Часто задаваемые вопросы</h2>
+        <details>
+            <summary>Во сколько заезд и выезд?</summary>
+            <p>Стандартное время заезда — 14:00, выезда — 12:00.</p>
+        </details>
+        <details>
+            <summary>Разрешены ли домашние животные?</summary>
+            <p>Пожалуйста, свяжитесь с нами заранее для уточнения правил размещения с питомцами.</p>
+        </details>
+    </section>
+</div>
+
+<footer>
+    <p>BELLAVISTA - 123 Vista Boulevard, Palm Heights District</p>
+    <p>© 2025 Все права защищены.</p>
+</footer>
+
+</body>
+</html>
